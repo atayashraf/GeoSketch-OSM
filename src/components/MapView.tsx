@@ -97,8 +97,6 @@ const DrawControls: React.FC<DrawControlsProps> = ({
             },
           },
           rectangle: {
-            showArea: true,
-            metric: true,
             shapeOptions: {
               color: '#ff7800',
               weight: 2,
@@ -148,8 +146,8 @@ export const MapView: React.FC = () => {
         scrollWheelZoom={true}
         doubleClickZoom={true}
         dragging={true}
-        tap={false}
         touchZoom={true}
+        {...({ tap: false } as object)}
       >
         <MapEventHandler />
         <TileLayer
