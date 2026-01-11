@@ -75,8 +75,8 @@ src/
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/geosketch-osm.git
-cd geosketch-osm
+git clone https://github.com/atayashraf/GeoSketch-OSM.git
+cd GeoSketch-OSM
 
 # Install dependencies
 npm install
