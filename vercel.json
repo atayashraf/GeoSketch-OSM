@@ -1,5 +1,4 @@
 {
-  "name": "geosketch-osm",
   "buildCommand": "npm run build",
   "outputDirectory": "dist",
   "framework": "vite"
